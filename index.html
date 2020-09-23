@@ -216,12 +216,21 @@
         material=""
         rotation=""
       ></a-entity>
+      <a-assets>
+        <audio id="hbd" src="./asset/hbd.mp3" preload="auto"></audio>
+      </a-assets>
+      <a-entity
+        position="0 2 -5.77156"
+        sound="src: #hbd; autoplay: true; volume:30; loop:true"
+      ></a-entity>
+      {#
       <a-sound
         src="src: url(./asset/hbd.mp3)"
         autoplay="true"
         position="0 2 -5.77156"
         sound="loop: true; volume: 30"
       ></a-sound>
+      #}
     </a-scene>
     <script src="./flame.js"></script>
   </body>
