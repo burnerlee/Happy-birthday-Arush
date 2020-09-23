@@ -1,6 +1,4 @@
-# Happy-birthday-yavu
-
-hosted at [vivekrajput20.github.io/Happy-birthday-yavu](https://vivekrajput20.github.io/Happy-birthday-yavu/)
+# Happy-birthday-Arush
 
 ## Features
 - Use WASD controls to move around.
